@@ -161,3 +161,35 @@ ul li{
     }
     
 }
+/*------------------ photo gallery style end ------------------------------- */
+
+/*--------------------------- architectur style start------------------- */
+.architectur{
+    display: flex;
+    gap: 54px;
+    padding: 40px 11rem;
+}
+.column-one{
+    margin-bottom: 40px;
+}
+.row-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.row-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.row-description{
+    font-weight: 400px;
+    font-size: 0.8rem;
+    color: #727272;
+}
+.column-primary{
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
