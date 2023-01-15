@@ -71,7 +71,8 @@ ul li{
     
     
 }
-/* --------------------banner reponsive ------------------- */
+/* --------------------banner reponsive for mobile ------------------- */
+
 @media only screen and (max-width:576px) {
     .projects{
         height: 890px;
@@ -213,3 +214,38 @@ ul li{
     font-size: 64px;
     color: #FFFFFF;
 }
+/* ---------------------architectur responsive for mobile ------------------ */
+@media only screen and (max-width:576px) {
+
+    .architectur{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .second-row img{
+        width: 100%;
+        height:50%;
+        margin-top: -40px;
+    }
+    .btn-tersiary {
+        width:220px;
+        height: 100px;
+        background-color: #FF900E;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 20px;
+        border-radius: 10px;
+        border-style: none;
+        margin: -50% 50% 0 70px;
+        
+    }
+    .bold-text{
+        font-size: 34px;
+        font-weight: 600;
+    }
+    
+}
+/* --------------------------architectur style and responsive end ----------------- */
