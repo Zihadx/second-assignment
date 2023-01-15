@@ -335,12 +335,18 @@ ul li{
 }
 /* ------------sponsor section and footer responsiv end ------------- */
 
-/*------------------------ extra section /---------------- */
+/*------------------------ extra section start/---------------- */
 
 .extra-section{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 3rem;
+}
+.extra-title{
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: coral;
 }
 .computer{
     text-align: center;
@@ -394,4 +400,21 @@ ul li{
 .computer:hover{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),0 3px 6px rgba(0, 0, 0, 0.23);
     transform: translate(0px, -8px);
+}
+/* ---------------------------extra section respomsive---------------- */
+@media only screen and (max-width:576px){
+    .extra-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .computer{
+        width: 70%;
+    }
+    .computer img{
+        width: 180px;
+        height: 180px;
+    }
 }
